@@ -265,9 +265,65 @@
 // let res = " "
 
 // for(let el of arr){
-//     res += el[0].toLocaleUpperCase()    
+//     res += (el[0].toLocaleUpperCase() + el[(el.length - 1)])    
 // }
 // console.log([res])
+
+// str 27
+
+// let str =  [".", ",", ";", ":", "?", "!", "-", "'", '"', "(", ")"];
+
+// // let arr = str.split("")
+
+// let res = 0;
+
+// for(let el of str){
+//     res ++
+// }
+// console.log(3*res);
+
+// str 28
+
+// let str =  "D:/Qudrat_c++/books/My_book.exe"
+
+// let arr = str.split("/");
+
+// let end = arr[3]
+// let srt = end.split(".")
+// console.log(srt[0]);
+
+// srt 29
+
+
+// let str =  "D:/Qudrat_c++/books/My_book.exe"
+
+// let arr = str.split("/");
+
+// let end = arr[3]
+// let srt = end.split(".")
+// console.log(srt[1]);
+
+// str 30
+
+// let str =  "D:/Qudrat_c++/books/My_book.exe"
+
+// let arr = str.split("/");
+
+// let end = arr[3]
+// let srt = end.split(".")
+// let fayl = srt[0];
+
+// let pap = fayl.split("_");
+// console.log(pap[1]);
+// if(pop[1]==0){
+//     console.log("/")
+// }
+
+
+
+
+
+
 
 
 
